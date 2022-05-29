@@ -58,6 +58,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
     <ClCompile>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -87,11 +97,17 @@
   <ItemGroup>
     <QtRcc Include="Project01.qrc" />
     <QtUic Include="Project01.ui" />
-    <QtMoc Include="MyWindow.h" />
-    <ClCompile Include="MyWindow.cpp" />
+    <QtMoc Include="MyWidget.h" />
+    <ClCompile Include="MyPushButton.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="MyWidget.cpp" />
     <ClCompile Include="main.cpp" />
     <None Include="Project01.ico" />
     <ResourceCompile Include="Project01.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyPushButton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
