@@ -88,7 +88,7 @@
     <QtRcc Include="Project01.qrc" />
     <QtUic Include="Project01.ui" />
     <QtMoc Include="MyWindow.h" />
-    <ClCompile Include="Project01.cpp" />
+    <ClCompile Include="MyWindow.cpp" />
     <ClCompile Include="main.cpp" />
     <None Include="Project01.ico" />
     <ResourceCompile Include="Project01.rc" />

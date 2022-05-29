@@ -9,6 +9,7 @@ class MyWindow : public QMainWindow
 
 public:
 	MyWindow(QWidget* parent = Q_NULLPTR);
+	~MyWindow();
 
 private:
 	Ui::Project01Class ui;

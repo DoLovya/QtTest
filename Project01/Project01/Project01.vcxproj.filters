@@ -32,7 +32,7 @@
     <QtMoc Include="MyWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="Project01.cpp">
+    <ClCompile Include="MyWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <None Include="Project01.ico">
