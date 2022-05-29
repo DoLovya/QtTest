@@ -1,6 +1,5 @@
 ﻿  Reading Qt configuration (D:/Software/Qt/5.14.2/msvc2017_64/bin/qmake)
   Project01.cpp
   main.cpp
-  qrc_Project01.cpp
-  moc_Project01.cpp
+  moc_MyWindow.cpp
   Project01.vcxproj -> D:\Code\QtTest\Project01\x64\Debug\Project01.exe

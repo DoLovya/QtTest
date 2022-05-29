@@ -1,7 +1,7 @@
-#include "Project01.h"
+#include "MyWindow.h"
 
-Project01::Project01(QWidget *parent)
-    : QMainWindow(parent)
+MyWindow::MyWindow(QWidget* parent)
+	: QMainWindow(parent)
 {
-    ui.setupUi(this);
+	ui.setupUi(this);
 }
