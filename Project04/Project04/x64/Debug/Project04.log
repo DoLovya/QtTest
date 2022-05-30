@@ -1,3 +1,4 @@
 ﻿  Reading Qt configuration (D:/Software/Qt/5.14.2/msvc2017_64/bin/qmake)
-  MainWindow.cpp
+  rcc MainWindow.qrc
+  qrc_MainWindow.cpp
   Project04.vcxproj -> D:\Code\QtTest\Project04\x64\Debug\Project04.exe
