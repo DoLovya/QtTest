@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/MainWindow"/>
+    <qresource prefix="/">
+        <file>Saved Pictures/01.jpg</file>
+    </qresource>
+</RCC>
