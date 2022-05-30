@@ -17,6 +17,8 @@ signals:
 	/// 可以有参数，可以重载
 	/// </summary>
 	void hungry();
+
+	void hungry(QString foodName);
 public slots:
 
 };

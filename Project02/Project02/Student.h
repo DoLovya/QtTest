@@ -19,4 +19,6 @@ public slots:
 	/// 可以有参数，可以重载
 	/// </slots>
 	void treat();
+
+	void treat(QString foodName);
 };
