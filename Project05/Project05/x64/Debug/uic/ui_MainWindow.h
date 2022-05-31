@@ -24,7 +24,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindowClass
 {
 public:
-    QAction *actionNew_File;
+    QAction *actionNew;
     QWidget *centralWidget;
     QMenuBar *menuBar;
     QMenu *menu;
@@ -36,15 +36,15 @@ public:
     {
         if (MainWindowClass->objectName().isEmpty())
             MainWindowClass->setObjectName(QString::fromUtf8("MainWindowClass"));
-        MainWindowClass->resize(600, 400);
-        actionNew_File = new QAction(MainWindowClass);
-        actionNew_File->setObjectName(QString::fromUtf8("actionNew_File"));
+        MainWindowClass->resize(742, 476);
+        actionNew = new QAction(MainWindowClass);
+        actionNew->setObjectName(QString::fromUtf8("actionNew"));
         centralWidget = new QWidget(MainWindowClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         MainWindowClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindowClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 600, 23));
+        menuBar->setGeometry(QRect(0, 0, 742, 23));
         menu = new QMenu(menuBar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menuBar);
@@ -59,7 +59,8 @@ public:
 
         menuBar->addAction(menu->menuAction());
         menuBar->addAction(menu_2->menuAction());
-        menu->addAction(actionNew_File);
+        menu->addAction(actionNew);
+        mainToolBar->addAction(actionNew);
 
         retranslateUi(MainWindowClass);
 
@@ -69,7 +70,7 @@ public:
     void retranslateUi(QMainWindow *MainWindowClass)
     {
         MainWindowClass->setWindowTitle(QCoreApplication::translate("MainWindowClass", "MainWindow", nullptr));
-        actionNew_File->setText(QCoreApplication::translate("MainWindowClass", "New File", nullptr));
+        actionNew->setText(QCoreApplication::translate("MainWindowClass", "\346\226\260\345\273\272", nullptr));
         menu->setTitle(QCoreApplication::translate("MainWindowClass", "\346\226\207\344\273\266", nullptr));
         menu_2->setTitle(QCoreApplication::translate("MainWindowClass", "\347\274\226\350\276\221", nullptr));
     } // retranslateUi

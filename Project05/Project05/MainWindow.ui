@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>742</width>
+    <height>476</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
+     <width>742</width>
      <height>23</height>
     </rect>
    </property>
@@ -27,7 +27,7 @@
     <property name="title">
      <string>文件</string>
     </property>
-    <addaction name="actionNew_File"/>
+    <addaction name="actionNew"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -44,11 +44,12 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="actionNew"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionNew_File">
+  <action name="actionNew">
    <property name="text">
-    <string>New File</string>
+    <string>新建</string>
    </property>
   </action>
  </widget>

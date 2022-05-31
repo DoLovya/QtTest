@@ -1,6 +1,3 @@
 ﻿  Reading Qt configuration (D:/Software/Qt/5.14.2/msvc2017_64/bin/qmake)
-  uic MainWindow.ui
   MainWindow.cpp
-  main.cpp
-  moc_MainWindow.cpp
   Project05.vcxproj -> D:\Code\QtTest\Project05\x64\Debug\Project05.exe
