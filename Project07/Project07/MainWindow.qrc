@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/MainWindow"/>
+    <qresource prefix="/">
+        <file>Image/01.jpg</file>
+        <file>Image/02.jpg</file>
+        <file>Image/03.jpg</file>
+        <file>Image/04.jpg</file>
+        <file>Image/05.webp</file>
+        <file>Image/06.webp</file>
+        <file>Image/07.webp</file>
+        <file>Image/08.png</file>
+        <file>Image/09.webp</file>
+    </qresource>
+</RCC>
