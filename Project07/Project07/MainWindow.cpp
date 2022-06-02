@@ -1,6 +1,8 @@
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 #include <qdebug.h>
+#include <qlistwidget.h>
+#include <qlistview.h>
 
 MainWindow::MainWindow(QWidget* parent)
 	: QWidget(parent)
@@ -21,4 +23,17 @@ MainWindow::MainWindow(QWidget* parent)
 		qDebug() << state;
 		}
 	);
+
+	//// 利用listWidget写诗
+	//QListWidgetItem* item = new QListWidgetItem("锄禾日当午");
+	//// 将一行诗放入ListWidget控件中
+	//ui.listWidget->addItem(item);
+	//item->setTextAlignment(Qt::AlignHCenter);
+
+	QStringList list;
+	list.append("锄禾日当午");
+	list.append("汗滴禾下土");
+	list.append("谁知盘中餐");
+	list.append("粒粒皆辛苦");
+	ui.listWidget->addItems(list);
 }
